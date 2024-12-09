@@ -1,0 +1,27 @@
+.task-input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-task-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-task-button:hover {
+    background-color: #45a049;
+}
